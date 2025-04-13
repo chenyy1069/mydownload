@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>觉醒宣言</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&family=Roboto+Mono&display=swap');
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Noto Serif SC', serif;
+      margin: 0;
+      background: radial-gradient(circle at top left, #1c1c1c, #0e0e0e);
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    header {
+      width: 100%;
+      background-color: #111;
+      padding: 1rem 2rem;
+      text-align: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 4px 8px rgba(255, 82, 82, 0.2);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #ff5252;
+      margin: 0;
+      font-family: 'Roboto Mono', monospace;
+    }
+
+    main {
+      max-width: 880px;
+      width: 90%;
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.03);
+      border-radius: 20px;
+      margin: 2rem 0;
+      box-shadow: 0 0 40px rgba(255, 255, 255, 0.05);
+      animation: fadeIn 2s ease;
+      backdrop-filter: blur(8px);
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+      text-indent: 2em;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #ff8888;
+    }
+
+    .quote {
+      font-style: italic;
+      margin: 2rem 0;
+      text-align: center;
+      color: #ffaa88;
+    }
+
+    .divider {
+      height: 2px;
+      background: linear-gradient(to right, transparent, #ff5252, transparent);
+      margin: 2rem 0;
+      opacity: 0.4;
+      animation: pulse 2.5s infinite ease-in-out;
+    }
+
+    .footer-quote {
+      font-family: 'Roboto Mono', monospace;
+      text-align: center;
+      font-size: 1rem;
+      color: #ff8a00;
+      margin-bottom: 2rem;
+      opacity: 0.9;
+      animation: flicker 1.8s infinite alternate;
+    }
+
+    .date {
+      text-align: right;
+      margin-top: 3rem;
+      font-style: italic;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 0.6; }
+    }
+
+    @keyframes flicker {
+      from {
+        opacity: 0.7;
+        transform: scale(1);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1.05);
+      }
+    }
+
+    footer {
+      width: 100%;
+      padding: 1rem;
+      background-color: #111;
+      text-align: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>觉醒宣言</h1>
+  </header>
+
+  <main>
+    <p>一只狼，一只披着“民主”外衣的狼，在阳光尚未照耀的角落游荡。它是吃人的……</p>
+    <p>它说“为人民服务”，却吞下人民的声音；它宣称“人民当家作主”，却将真正的主人关进沉默的牢笼。</p>
+    <p>它微笑着高举旗帜，旗帜上却是无数被抹去的面孔；它高呼“统一思想”，却惧怕一个人静静地思考。</p>
+    <p>那镰刀与斧头，本应为工农而举，如今却在“人民”的口号下，反手砍向群众的胸膛！</p>
+    <p>我们看见它了，那腐烂的内脏；我们认清它了，那血腥的伪装。</p>
+    <p class="highlight">我要成为光，哪怕只是烛火，也要烧穿那张伪善的羊皮。</p>
+
+    <div class="divider"></div>
+
+    <p class="quote">正如雨果所说：“没有任何力量比一个觉醒了的灵魂更强大。”</p>
+
+    <p>红色恐怖可以封住人民的嘴，却永远禁锢不了觉醒灵魂的怒吼与渴望。言论的囚笼可以束缚思想，却无法阻止自由的灵魂追寻真相。</p>
+    <p>我们愿做那个怒吼的人——不为毁灭，不为复仇，只为唤醒沉睡者，照亮被剥夺的双眼。</p>
+    <p>我们要写下真相，哪怕它永不被发表；我们要铭记名字，哪怕它被删去千次；我们要让历史的骨灰重新燃烧，照亮未来的路。</p>
+    <p>强权不必被崇拜，“胜利者”不必被膜拜。真正值得敬仰的，是那在黑暗中仍坚持真理的人，在孤独中仍选择正义的人，在沉默中仍敢说出“我不同意”的人。</p>
+    <p>哪怕脚下是审查的铁轨，耳边是宣传的号角，我们也要在心中守护一座自由的灯塔。</p>
+    <p>这是我们的誓言——</p>
+    <p>不为逃避，不为复仇，只为不让谎言占据整个世界。</p>
+    <p class="highlight">哪怕只有我一人，我也愿举火而行。</p>
+
+    <p class="date">公元2025年4月11日</p>
+  </main>
+
+  <div class="footer-quote">✴ 举火者，不灭 ✴</div>
+
+  <footer>
+    &copy; 自由的火种终将燎原
+  </footer>
+</body>
+</html>
